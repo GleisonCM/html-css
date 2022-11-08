@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
     body {
         height: 100vh;
-        background-color: black;
+        /*background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-position: certer top;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;*/
+
+        /* Shorthand - backgroud-color > imge > position > repeat : [size] > attachment
+        */
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
+
+        margin: 150px;
     }
     main {
         background-color: white;
-        width:  400px;
-        padding: 19px;
+        max-width:  400px;
+        padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
         border-radius: 15px;
@@ -28,7 +36,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit ab tenetur repellendus nostrum, voluptatibus distinctio ut officiis deleniti corporis, repellat facilis accusantium omnis architecto porro, quod vel ullam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae odio pariatur. Obcaecati eius repudiandae reiciendis incidunt possimus, labore ea perferendis cumque ducimus, fugit optio vitae. Exercitationem architecto consequuntur sequi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa velit ut veniam ea! Quaerat iste quia incidunt quibusdam minima rerum officia exercitationem non debitis id est, assumenda nostrum deserunt illum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit ab tenetur repellendus nostrum, voluptatibus distinctio ut officiis deleniti corporis, repellat facilis accusantium omnis architecto porro, quod vel ullam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae odio pariatur. Obcaecati eius repudiandae reiciendis incidunt possimus, labore ea perferendis cumque ducimus, fugit optio vitae. Exercitationem architecto consequuntur sequi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa velit ut veniam ea! Quaerat iste quia incidunt quibusdam minima rerum officia exercitationem non debitis id est, assumenda nostrum deserunt illum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit ab tenetur repellendus nostrum, voluptatibus distinctio ut officiis deleniti corporis, repellat facilis accusantium omnis architecto porro, quod vel ullam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae odio pariatur. Obcaecati eius repudiandae reiciendis incidunt possimus, labore ea perferendis cumque ducimus, fugit optio vitae. Exercitationem architecto consequuntur sequi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa velit ut veniam ea! Quaerat iste quia incidunt quibusdam minima rerum officia exercitationem non debitis id est, assumenda nostrum deserunt illum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit ab tenetur repellendus nostrum, voluptatibus distinctio ut officiis deleniti corporis, repellat facilis accusantium omnis architecto porro, quod vel ullam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae odio pariatur. Obcaecati eius repudiandae reiciendis incidunt possimus, labore ea perferendis cumque ducimus, fugit optio vitae. Exercitationem architecto consequuntur sequi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa velit ut veniam ea! Quaerat iste quia incidunt quibusdam minima rerum officia exercitationem non debitis id est, assumenda nostrum deserunt illum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit ab tenetur repellendus nostrum, voluptatibus distinctio ut officiis deleniti corporis, repellat facilis accusantium omnis architecto porro, quod vel ullam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae odio pariatur. Obcaecati eius repudiandae reiciendis incidunt possimus, labore ea perferendis cumque ducimus, fugit optio vitae. Exercitationem architecto consequuntur sequi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa velit ut veniam ea! Quaerat iste quia incidunt quibusdam minima rerum officia exercitationem non debitis id est, assumenda nostrum deserunt illum!
+        </p>
     </main>
 </body>
 </html>
