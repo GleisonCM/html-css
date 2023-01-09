@@ -50,7 +50,7 @@ Grandes telas: acima de 1200px
     img#pc { display: none;}
     img#tv { display: none;}
 }
-@media screen  and (min-width: 992px) and (max-width: 1950px) {
+@media screen  and (min-width: 992px) and (max-width: 1910px) {
     /* Desktop */
 
     body {
@@ -65,7 +65,7 @@ Grandes telas: acima de 1200px
 
 
 }
-@media screen and (min-width: 1950px) {
+@media screen and (min-width: 1910px) {
     /* Grandes Telas */
     body {
         background-image: url(../imagens/back-tv.jpg);
