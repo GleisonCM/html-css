@@ -21,26 +21,21 @@ Grandes telas: acima de 1200px
     main {
         width: 70vw;
         border: 2px solid black;
-        
-        
     }
 
     main h1{
         text-shadow: none;
         color: black;
-        
     }
     main::after {
         content: '              Essa impressão foi feita através do site:5525dd';
-        text-decoration: overline;
-        
+        text-decoration: overline;    
     }
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print{ display: block;}
     img#pc { display: none;}
     img#tv { display: none;}
-    
 }
 
 @media  screen and (min-width: 768px) and (max-width: 992px) {
